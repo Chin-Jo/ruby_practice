@@ -16,6 +16,7 @@ default: &default
   username: root
   password:
   host: localhost
+  socket: /Users/divx/Library/Containers/com.sequel-ace.sequel-ace/Data/mysql.sock
 
 development:
   <<: *default
